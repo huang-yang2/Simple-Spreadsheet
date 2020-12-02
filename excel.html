@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OnlineExcel</title>
+    <script src="/bundle.js"></script>
+    <link rel="stylesheet" href="style/excel.css">
+</head>
+<body>
+<!--buttons -->
+<div class="btns">
+    <button onclick="init()">BlankSheet</button>
+    <input type="file" id = "fileUpload" value = "file">
+    <br>
+    <button onclick="upLoad()">Import CSV</button>
+    <button onclick="exportCSV()">Export CSV</button>
+    <br><br>
+    <button onclick="addRow()">Add row</button>
+    <button onclick="addColumn()">Add column</button>
+    <br><br>
+    <button onclick="deleteRow()">Delete row</button>
+    <button onclick="deleteColumn()">Delete column</button>
+    <br>
+</div>
+<br>
+
+<!--spreadsheet-->
+<div class="table_box_big">
+    <div class="table_box">
+        <table>
+<!--            <caption>-->
+<!--                Simple Spreadsheet-->
+<!--                <br>-->
+<!--            </caption>-->
+            <thead>
+            <tr id="columnTitle">
+                <th> </th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+            <tr>
+                <td>1</td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+                <td><input type="text" onclick="getRowAndColumnIndex()" onblur="handleCell(event)"></td>
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+#fileUpload {
+    width: 200px;
+}
+
+input{
+    font-size: 10px;
+    height: 30px;
+    text-align: center;
+    border: none;
+
+}
+
+.table_box_big{
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+.table_box{
+    overflow-x: auto;
+    position: absolute;
+}
+.table_tbody_box{
+    height: 600px;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-top: 35px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    table-layout: fixed;
+}
+
+table thead tr th{
+    width: 100px;
+    height: 30px;
+    border-right: 1px solid #eeeeee;
+    text-align: center;
+    font-weight: lighter;
+    word-break: keep-all;
+    /*color: #eeeeee;*/
+    padding: 2px 10px;
+    /*background: rgb(56,122,71);*/
+    background:  #CCE8EB;
+}
+table caption{
+    position: fixed;
+    margin-left: 40%;
+    margin-top: -60px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+table tbody tr td{
+    width: 100px;
+    height: 30px;
+    border-right: 1px solid #eeeeee;
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+    word-break: keep-all;
+    padding: 2px 10px;
+}
