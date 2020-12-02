@@ -25,7 +25,7 @@ As a user, I should be able to load a CSV from the node server on clicking a loa
 install npm
 install rxjs
 
-#Steps to run
+# Steps to run
 put following codes in terminal:
 
 npm install
