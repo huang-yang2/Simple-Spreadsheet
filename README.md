@@ -22,5 +22,6 @@ install rxjs
 put following codes in terminal:
 
 npm install
+
 npm run start 
 
